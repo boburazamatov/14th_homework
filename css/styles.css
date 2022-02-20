@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto';
+    background-color: #333;
+}
+
+.container {
+    width: 1000px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.signup_box {
+    margin: 50px 175px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+}
+
+.member {
+    width: 600px;
+    padding-top: 50px;
+}
+
+ul {
+    list-style-type: none;  
+}
+
+.member-list_head {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.list-text {
+    font-size: 15px;
+    color: #666;
+}
+
+.account-img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.account-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.account-box {
+    position: relative;
+    padding: 15px 190px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.signup-accounts {
+    margin: 40px 30px 70px 0 ;
+}
+
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 40px;
+}
+
+.account-box:hover {
+    -webkit-box-shadow: 0 0 5px 1px #333;
+            box-shadow: 0 0 5px 1px #333;
+}
+
+.account-link:hover {
+    color: #111;
+}
